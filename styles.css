@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    background-color: rgb(120, 172, 153);
+    color: rgb(51, 46, 66);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.4rem;
+    border-bottom: 1px solid;
+    justify-content: center;
+    width: 90%;
+    margin-block: 1rem;
+}
+.bar {
+    background: linear-gradient(90deg, rgba(11,11,11,1) 0%, rgba(37,37,68,1) 35%, rgba(12,12,38,1) 100%);
+}
+button {
+    padding: 0.4rem 0.8rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(51, 46, 66);
+    color: rgb(120, 172, 153);
+}
+button:hover {
+    background-color: transparent;
+    color: rgb(51, 46, 66);
+    border: 2px solid rgb(51, 46, 66);
+}
